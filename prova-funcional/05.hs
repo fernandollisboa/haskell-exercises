@@ -1,3 +1,4 @@
+-- 5. Implementar a estrutura de dados Heap e seus algoritmos (usando datatype) em Haskell
 data Heap a = NIL | Node a (Heap a) (Heap a) deriving (Eq, Show, Ord)
 
 myInsert x NIL = Node x NIL NIL
